@@ -26,7 +26,7 @@ Then browse the **Discover** tab to see available plugins, or install directly:
 
 ### Other Agents
 
-Each plugin repo contains its own install instructions for Gemini CLI, Codex CLI, Cursor, and OpenCode. See the individual repos above.
+Each plugin repo contains its own install instructions for Codex CLI, Cursor, and OpenCode. See the individual repos above.
 
 ## Adding a Plugin
 

@@ -6,7 +6,7 @@ Every plugin in this marketplace follows a consistent 4-layer structure. This is
 
 ### Layer 1: Agent Discovery Manifests
 
-Each plugin supports 5 coding agents. Manifests are the only agent-specific files — everything else is shared.
+Each plugin supports 4 coding agents. Manifests are the only agent-specific files — everything else is shared.
 
 ```
 <plugin-repo>/
@@ -18,12 +18,9 @@ Each plugin supports 5 coding agents. Manifests are the only agent-specific file
 ├── .codex-plugin/
 │   ├── plugin.json              # Codex discovery (+ skills path)
 │   └── INSTALL.md               # Clone + symlink instructions
-├── .gemini-plugin/
-│   └── GEMINI.md                # Skill @includes + path/tool mapping
 ├── .opencode-plugin/
 │   ├── plugins/<name>.js        # JS plugin module (skill registration + bootstrap)
 │   └── INSTALL.md               # opencode.json plugin config
-└── gemini-extension.json        # Root-level Gemini manifest → .gemini-plugin/GEMINI.md
 ```
 
 **Naming conventions:**
@@ -161,8 +158,7 @@ Result returned as JSON → presented to user
 3. Create execution scripts that call the library's Python API
 4. Create `commands/` markdown files referencing scripts via `${CLAUDE_PLUGIN_ROOT}`
 5. Create `skills/` with `setup-guide` and one domain skill
-6. Create all 5 agent manifests (copy from an existing plugin and adapt)
-7. Create `gemini-extension.json` at root
-8. Add `.config-dir/` to `.gitignore`
+6. Create all 4 agent manifests (copy from an existing plugin and adapt)
+7. Add `.config-dir/` to `.gitignore`
 9. Add entry to this marketplace's `.claude-plugin/marketplace.json`
 10. Update the README status from "Coming soon" to "Ready"
