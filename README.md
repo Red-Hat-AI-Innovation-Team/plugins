@@ -7,8 +7,8 @@ Plugin marketplace for the [Red Hat AI Innovation Team](https://ai-innovation.te
 | Plugin | Description | Status |
 |--------|-------------|--------|
 | [its-hub](https://github.com/Red-Hat-AI-Innovation-Team/its_hub) | Inference-time scaling for LLMs — voting, scoring, and search | Ready |
-| [sdg-hub](https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub) | Synthetic data generation for LLM training and evaluation | Coming soon |
-| [training-hub](https://github.com/Red-Hat-AI-Innovation-Team/training_hub) | LLM training, continual learning, and reinforcement learning | Coming soon |
+| [sdg-hub](https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub) | Synthetic data generation for LLM training and evaluation | Ready |
+| [training-hub](https://github.com/Red-Hat-AI-Innovation-Team/training_hub) | LLM training, continual learning, and reinforcement learning | Ready |
 
 ## Install
 
