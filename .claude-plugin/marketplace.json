@@ -1,0 +1,34 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "red-hat-ai-innovation-team",
+  "description": "Coding agent plugins from the Red Hat AI Innovation Team — inference-time scaling, synthetic data generation, and LLM training tools",
+  "owner": {
+    "name": "Red Hat AI Innovation Team"
+  },
+  "plugins": [
+    {
+      "name": "its-hub",
+      "description": "Inference-time scaling for LLMs — generate multiple candidates and select the best using voting, scoring, or search",
+      "author": {
+        "name": "Red Hat AI Innovation Team"
+      },
+      "source": "Red-Hat-AI-Innovation-Team/its_hub"
+    },
+    {
+      "name": "sdg-hub",
+      "description": "Synthetic data generation for LLM training and evaluation",
+      "author": {
+        "name": "Red Hat AI Innovation Team"
+      },
+      "source": "Red-Hat-AI-Innovation-Team/sdg_hub"
+    },
+    {
+      "name": "training-hub",
+      "description": "LLM training, continual learning, and reinforcement learning techniques",
+      "author": {
+        "name": "Red Hat AI Innovation Team"
+      },
+      "source": "Red-Hat-AI-Innovation-Team/training_hub"
+    }
+  ]
+}
